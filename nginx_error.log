@@ -1,0 +1,16 @@
+2024/11/27 22:58:36 [emerg] 9479#9479: open() "/run/nginx.pid" failed (13: Permission denied)
+2024/11/27 23:22:51 [emerg] 11109#11109: open() "/run/nginx.pid" failed (13: Permission denied)
+2024/11/27 23:29:52 [error] 12018#12018: *1 open() "/home/majilei/work/pythonlearning/testcases/web/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/"
+2024/11/27 23:30:53 [alert] 12016#12016: unlink() "/run/nginx.pid" failed (13: Permission denied)
+2024/11/27 23:33:09 [error] 12934#12934: *1 open() "/home/majilei/work/pythonlearning/testcases/web/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/"
+2024/11/27 23:33:40 [alert] 12933#12933: unlink() "/run/nginx.pid" failed (13: Permission denied)
+2024/11/28 01:00:56 [emerg] 5878#5878: open() "/run/nginx.pid" failed (13: Permission denied)
+2024/11/28 01:05:49 [error] 6543#6543: *1 open() "/home/majilei/work/pythonlearning/testcases/web/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/"
+2024/11/28 01:05:51 [alert] 6542#6542: unlink() "/run/nginx.pid" failed (13: Permission denied)
+2024/11/28 01:14:45 [error] 7555#7555: *1 open() "/home/majilei/work/pythonlearning/testcases/web/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/"
+2024/11/28 01:15:16 [alert] 7554#7554: unlink() "/run/nginx.pid" failed (13: Permission denied)
+2024/11/28 01:35:01 [alert] 8914#8914: unlink() "/run/nginx.pid" failed (13: Permission denied)
+2024/11/28 01:37:43 [error] 9452#9452: *1 open() "/home/majilei/work/pythonlearning/testcases/web/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/"
+2024/11/28 01:37:45 [alert] 9451#9451: unlink() "/run/nginx.pid" failed (13: Permission denied)
+2024/11/28 01:41:18 [error] 10075#10075: *1 open() "/home/majilei/work/pythonlearning/testcases/web/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/"
+2024/11/28 01:42:20 [alert] 10074#10074: unlink() "/run/nginx.pid" failed (13: Permission denied)

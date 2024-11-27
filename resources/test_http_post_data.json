@@ -1,0 +1,52 @@
+{
+  "dataItem": [
+    {
+      "id": "testpost-1",
+      "name": "草料二维码post接口1",
+      "url": "/Apis/QrCode/saveStatic",
+      "headers": {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Accept-Encoding": "gzip, deflate, br"
+      },
+      "parameters": {
+        "info": 11111,
+        "content": 11111,
+        "level": "H",
+        "size": 500,
+        "fgcolor": "#000000",
+        "bggcolor": "#FFFFFF",
+        "transparent": "false",
+        "type": "text",
+        "codeimg": 1
+      },
+      "expectdata": {
+        "status": "1",
+        "qrtype": "static"
+      }
+    },
+    {
+      "id": "testpost-2",
+      "name": "草料二维码post接口2",
+      "url": "/Apis/QrCode/saveStatic",
+      "headers": {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Accept-Encoding": "gzip, deflate, br"
+      },
+      "parameters": {
+        "info": 22222,
+        "content": 22222,
+        "level": "H",
+        "size": 500,
+        "fgcolor": "#000000",
+        "bggcolor": "#FFFFFF",
+        "transparent": "false",
+        "type": "text",
+        "codeimg": 1
+      },
+      "expectdata": {
+        "status": "1",
+        "qrtype": "static"
+      }
+    }
+  ]
+}
